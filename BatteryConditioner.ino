@@ -23,7 +23,7 @@ enum reason { NONE, CHARGE_CURRENT, CHARGE_TIMEOUT,
 unsigned long charge_ended ;
 
 void setup(){
-
+    pinMode( stop_pin, INPUT_PULLUP );
 }
 
 void loop(){
